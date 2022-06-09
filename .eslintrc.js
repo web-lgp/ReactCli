@@ -1,0 +1,11 @@
+module.exports={
+    extends:["react-app","react-app/jest"],
+    parserOptions:{
+        babelOptins:{
+            presets:[
+                ["babel-preset-react-app",false],
+                "babel-preset-react-app/prod"
+            ]
+        }
+    }
+}
